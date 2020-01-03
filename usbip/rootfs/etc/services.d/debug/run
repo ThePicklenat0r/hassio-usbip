@@ -1,7 +1,0 @@
-#!/usr/bin/with-contenv bashio
-
-while true; do
-  dev=(ls /dev | grep $(bashio::config 'devId'))
-  bashio::log.debug $dev
-  sleep 10
-done

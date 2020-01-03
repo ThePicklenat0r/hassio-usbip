@@ -15,6 +15,7 @@
     "boot": "auto",
     "full_access": true,
     "privileged": ["SYS_RAWIO","SYS_MODULE","SYS_RESOURCE"],
+    "host_pid": true,
     "options": {
         "log_level": "info",
         "server": null,
