@@ -6,7 +6,7 @@ on:
 
 env:
   versionBuilder: '6.6'                # Version of the Hass.io Builder to run
-  addon: example                       # Add-on slug. Must match the slug listed in config.json
+  addon: usbip                         # Add-on slug. Must match the slug listed in config.json
   repoAddons: hassio-addons            # Release repository to publish to
   repoBetaAddons: hassio-addons-beta   # Beta repository to publish to. If you do not want to publish beta versions, delete this line.
   dockerUser: thepicklenat0r           # The Docker Hub user to authenticate with.
