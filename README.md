@@ -25,8 +25,8 @@ Example add-on configuration:
 ```json
 {
   "log_level": "info",
-  "server": null,
-  "devId": null
+  "server": "192.168.1.5:8888",
+  "devId": "ttyZWAVE"
 }
 ```
 
@@ -54,7 +54,7 @@ The IPv4 address of the USB-over-IP server.
 
 ### Option: `devId`
 
-The device ID of the USB device to attach.
+Where to map the device in /dev
 
 **NOTE:** _Currently, only one device can be attached._
 

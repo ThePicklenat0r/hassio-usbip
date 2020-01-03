@@ -1,9 +1,5 @@
 #!/usr/bin/with-contenv bashio
 
-devId=$(bashio::config 'devId')
-server=$(bashio::config 'server')
-
 bashio::log.info "Starting usbip..."
 
-exec /usr/lib/linux-tools/$(uname -r)/usbip attach -r $server -b \
-      $(/usr/lib/linux-tools/$(uname -r)/usbip list -r $server | grep "$devId" | cut -d: -f1)
+exec socat PTY,raw,echo=0,link=/dev/$(bashio::config 'devId') tcp:$(bashio::config 'server')
