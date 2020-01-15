@@ -2,7 +2,7 @@
 
 A USB-over-IP client for Hass.io
 
-## Note
+## Archived
 
 Keeping this archive because it might be valuable some day, but I don't think this is actually possible.
 
