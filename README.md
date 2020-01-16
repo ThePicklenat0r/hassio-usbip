@@ -2,10 +2,6 @@
 
 A USB-over-IP client for Hass.io
 
-## Archived
-
-Keeping this archive because it might be valuable some day, but I don't think this is actually possible.
-
 ## About
 
 A USB-over-IP client to extend USB devices over your network (such as a z-stick)
