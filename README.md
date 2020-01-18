@@ -2,6 +2,10 @@
 
 A USB-over-IP client for Hass.io
 
+## Warning
+
+This addon is experimental and does not work; it probably never will.
+
 ## About
 
 A USB-over-IP client to extend USB devices over your network (such as a z-stick)
