@@ -15,10 +15,7 @@ into your Hass.io instance.
 
 ## How to use
 
-1. Add the GitHub repo to your Hass.io: <https://github.com/ThePicklenat0r/hassio-addons>
-2. Install the addon
-3. Configure the options in the addon (see descriptions for each option below).
-4. Start the addon
+This addon is not published to the repository and needs to be built locally from /addons
 
 ## Configuration
 
